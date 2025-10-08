@@ -3,7 +3,9 @@
     "PARTNER_AIRPULLMAN": [
       "Home",
       "CheckIn",
-      "DamageReport"
+      "ServiceCheck",
+      "ConfigureService",
+      "ServiceInfo"
     ]
   },
   "lastVersion": "1.0.0",
