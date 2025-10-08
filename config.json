@@ -1,0 +1,252 @@
+{
+  "drawerConfig": {
+    "PARTNER_AIRPULLMAN": [
+      "Home",
+      "CheckIn",
+      "DamageReport"
+    ]
+  },
+  "lastVersion": "1.0.0",
+  "lastBuildNumber": 1,
+  "lastMandatoryVersion": "1.0.0",
+  "lastMandatoryBuildNumber": 1,
+  "baseUrl": "https://api.itabus-intgr-prod.itabus.it",
+  "busServiceRange": {
+    "start": -5,
+    "end": 1
+  },
+  "serviceInfo": [
+    {
+      "label": "Numeri Utili",
+      "format": "phone",
+      "itemList": [
+        {
+          "label": "Coordinamento Flotta/Circolazione",
+          "value": "0642299209"
+        },
+        {
+          "label": "Coordinamento Personale",
+          "value": "0642299208"
+        }
+      ]
+    },
+    {
+      "label": "Link Utili",
+      "format": "website",
+      "itemList": [
+        {
+          "label": "IVU.pad",
+          "value": "https://itabus.willowcloud.it/webcrew/mbweb/main/matter/desktop/main-menu"
+        },
+        {
+          "label": "Itabus",
+          "value": "www.itabus.it"
+        }
+      ]
+    }
+  ],
+  "damageReportEmail": "coordinamento.circolazione@itabus.it",
+  "damageReport": {
+    "Step_1": {
+      "label": "Partner",
+      "format": "list",
+      "values": ["Roma", "Milano", "Napoli"]
+    },
+    "Step_2": {
+      "label": "Tipologia Veicolo",
+      "format": "list",
+      "values": ["MNP", "BPN"]
+    },
+    "Step_3": {
+      "label": "Matricola Veicolo",
+      "format": "list",
+      "values": [
+        "ITA 001",
+        "ITA 002",
+        "ITA 003",
+        "ITA 004",
+        "ITA 005",
+        "ITA 006",
+        "ITA 007",
+        "ITA 008",
+        "ITA 009",
+        "ITA 010",
+        "ITA 011",
+        "ITA 012",
+        "ITA 013",
+        "ITA 014",
+        "ITA 015",
+        "ITA 016",
+        "ITA 017",
+        "ITA 018",
+        "ITA 019",
+        "ITA 020",
+        "ITA 021",
+        "ITA 022",
+        "ITA 023",
+        "ITA 024",
+        "ITA 025",
+        "ITA 026",
+        "ITA 027",
+        "ITA 028",
+        "ITA 029",
+        "ITA 030",
+        "ITA 031",
+        "ITA 032",
+        "ITA 033",
+        "ITA 034",
+        "ITA 035",
+        "ITA 036",
+        "ITA 037",
+        "ITA 038",
+        "ITA 039",
+        "ITA 040",
+        "ITA 041",
+        "ITA 042",
+        "ITA 043",
+        "ITA 044",
+        "ITA 045",
+        "ITA 046",
+        "ITA 047",
+        "ITA 048",
+        "ITA 049",
+        "ITA 050",
+        "ITA 051",
+        "ITA 052",
+        "ITA 053",
+        "ITA 054",
+        "ITA 055",
+        "ITA 056",
+        "ITA 057",
+        "ITA 058",
+        "ITA 059",
+        "ITA 060",
+        "ITA 061",
+        "ITA 062",
+        "ITA 063",
+        "ITA 064",
+        "ITA 065",
+        "ITA 066",
+        "ITA 067",
+        "ITA 068",
+        "ITA 069",
+        "ITA 070",
+        "ITA 071",
+        "ITA 072",
+        "ITA 073",
+        "ITA 074",
+        "ITA 075",
+        "ITA 076",
+        "ITA 077",
+        "ITA 078",
+        "ITA 079",
+        "ITA 080",
+        "ITA 081",
+        "ITA 082",
+        "ITA 083",
+        "ITA 084",
+        "ITA 085",
+        "ITA 086",
+        "ITA 087",
+        "ITA 088",
+        "ITA 089",
+        "ITA 090",
+        "ITA 091",
+        "ITA 092",
+        "ITA 093",
+        "ITA 094",
+        "ITA 095",
+        "ITA 096",
+        "ITA 097",
+        "ITA 098",
+        "ITA 099",
+        "ITA 100"
+      ]
+    },
+    "Step_4": {
+      "label": "Guasto",
+      "format": "list",
+      "values": [
+        {
+          "details": {
+            "label": "Allestimento Interno",
+            "format": "list",
+            "values": [
+              {
+                "label": "Arredamento",
+                "format": "list",
+                "values": [
+                  "Rivestimento Laterale",
+                  "Rivestimento Pavimento",
+                  "Rivestimento Tetto Cabina",
+                  "Tendaggio"
+                ]
+              },
+              {
+                "label": "Illuminazione",
+                "format": "list",
+                "values": [
+                  "Illuminazione Corridoio",
+                  "Illuminazione Sedili",
+                  "Strisce LED"
+                ]
+              },
+              {
+                "label": "Sedili BUS",
+                "format": "list",
+                "values": [
+                  "Rivestimento sedile",
+                  "Meccanismo sedile",
+                  "Bracciolo sedile",
+                  "Tavolino",
+                  "Rete",
+                  "Pittogrammi",
+                  "Prese elettriche"
+                ]
+              },
+              {
+                "label": "Cabina Autista",
+                "format": "list",
+                "values": [
+                  "Sedile",
+                  "Cruscotto",
+                  "Prese",
+                  "Avvolgibile Parasole",
+                  "Specchietto Retrovisore"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "details": {
+            "label": "Allestimento Esterno",
+            "format": "list",
+            "values": [
+              {
+                "label": "Carrozzeria",
+                "format": "list",
+                "values": [
+                  "Frontale",
+                  "Laterale",
+                  "Posteriore",
+                  "Specchietti Retrovisori"
+                ]
+              },
+              {
+                "label": "Pellicolatura",
+                "format": "list",
+                "values": ["Frontale", "Laterale", "Posteriore"]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "Step_5": {
+      "label": "EntitÃ ",
+      "format": "list",
+      "values": ["Bassa", "Media", "Alta"]
+    }
+  }
+}
